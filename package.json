@@ -1,0 +1,21 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "description": "Quiz API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Vilmar Cabanero",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
